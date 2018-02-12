@@ -29,7 +29,7 @@ strategy will help manage the complexity of the edx-platform code base to make
 it as easy as possible for developers to approach and contribute to the
 project.
 
-.. image:: ../../images/edx-architecture.png
+.. image:: images/edx-architecture.png
   :width: 700
   :alt: A diagram of the components and technologies that make up an edX site.
 
@@ -124,7 +124,7 @@ via a REST API to Insights, an IDA that instructors and administrators use to
 explore data that lets them know what their learners are doing and how their
 courses are being used.
 
-.. image:: ../../images/edx-architecture-analytics.png
+.. image:: images/edx-architecture-analytics.png
   :width: 700
   :alt: A diagram of the components and technologies that make up the Open edX
       analytics architecture.
