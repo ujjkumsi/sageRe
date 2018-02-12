@@ -2,6 +2,6 @@
 Installation
 ============
 
-Install the package with pip::
+To install the please visit play store at::
 
-    $ pip install read-the-docs-template
+    $ https://play.google.com/store/apps/details?id=com.mindtickle&hl=en
