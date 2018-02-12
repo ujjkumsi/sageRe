@@ -241,7 +241,7 @@ man_pages = [
 #  dir menu entry, description, category)
 texinfo_documents = [
   ('index', 'SageAndroid', u'Sage Android',
-   u'Mindtickle', 'SageAndroid', 'Documentation for android application for Mindtickle',
+   u'Mindtickle', 'SageAndroid', 'Documentation for android application',
    'Miscellaneous'),
 ]
 
