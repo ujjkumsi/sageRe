@@ -6,7 +6,8 @@ for sales and customer success teams. It is a must-have app for organizations wh
 regularly update their team with new product features, success stories, sales pitches, 
 sales collateral, marketing offers, sales initiatives, etc.
 
-$project will allow you explore various components of mobile development environment for Android
+sage project documentation will allow you explore various components of mobile development 
+environment for Android
 
 Features
 --------
