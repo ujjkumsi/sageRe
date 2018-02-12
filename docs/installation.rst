@@ -2,6 +2,6 @@
 Installation
 ============
 
-To install the please visit play store at::
+To install the app please visit play store at::
 
-    $ https://play.google.com/store/apps/details?id=com.mindtickle&hl=en
+    https://play.google.com/store/apps/details?id=com.mindtickle&hl=en
