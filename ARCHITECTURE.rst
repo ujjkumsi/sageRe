@@ -1,8 +1,8 @@
 ################################
-Sage Architecture
+Phoenix Architecture
 ################################
 
-The Sage project is a android-based readiness platform for sales and 
+The Phoenix project is a mobile-based readiness platform for sales and 
 customer success teams. It is a must-have app for organizations who need to 
 regularly update their team with new product features, success stories, sales pitches, 
 sales collateral, marketing offers, sales initiatives, etc.
@@ -15,25 +15,24 @@ getting into too many details.
 Overview
 ********
 
-There are a handful of major components in the Sage project. Where
-possible, these communicate using stable, to be documented APIs.
+There are a handful of major components in the Phoenix project.
 
-The centerpiece of the Open edX architecture is `edx-platform`_, which contains
-the learning management and course authoring applications (LMS and Studio,
-respectively).
+The underlying architecture has the following layered components:
+- `UI Layer`_ : For rendenring content and for interacting with user
+- `Business Logic Layer`_ : Encapsulates the application business logic
+- `Network Layer`_ : Routes the requests to backend servers
+- `Database Layer`_ : Persists the data for in-app processing
 
-This service is supported by a collection of other autonomous web services
-called independently deployed applications (IDAs). Over time, edX plans to
-break out more of the existing edx-platform functions into new IDAs. This
-strategy will help manage the complexity of the edx-platform code base to make
-it as easy as possible for developers to approach and contribute to the
-project.
+The mobile application is supported by plethora of services to provide seamless 
+user experience. The layered architecture ensures "Single Responsibility Principle".
+It also empowers developers to make changes to a component without affecting others.
 
-.. image:: images/edx-architecture.png
+
+.. image:: images/Architecture.png
   :width: 700
-  :alt: A diagram of the components and technologies that make up an edX site.
+  :alt: Layered architecture of Mindtickle Mobile App
 
-Almost all of the client-side code in the Sage project is in `Kotlin`_.
+Almost all of the client-side code in the Phoenix project is in `Kotlin`_ and `Swift`_.
 
 **************
 Key Components
