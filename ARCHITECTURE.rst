@@ -1,3 +1,4 @@
+.. _architecture-pages:
 ################################
 Phoenix Architecture
 ################################
@@ -18,10 +19,16 @@ Overview
 There are a handful of major components in the Phoenix project.
 
 The underlying architecture has the following layered components:
-- `UI Layer`_ : For rendenring content and for interacting with user
-- `Business Logic Layer`_ : Encapsulates the application business logic
-- `Network Layer`_ : Routes the requests to backend servers
-- `Database Layer`_ : Persists the data for in-app processing
+
+* :ref:`UI Layer <ui-pages>` : For rendenring content and for interacting with user
+
+* :ref:`Business Logic Layer <bl-pages>` : Encapsulates the application business logic
+
+* :ref:`Network Layer <network-pages>` : Routes the requests to backend servers
+
+* :ref:`Database Layer <database-pages>` : Persists the data for in-app processing
+
+* :ref:`Analytics Layer <ui-pages>` : Logs the user engagement and behaviour
 
 The mobile application is supported by plethora of services to provide seamless 
 user experience. The layered architecture ensures "Single Responsibility Principle".
@@ -34,9 +41,9 @@ It also empowers developers to make changes to a component without affecting oth
 
 Almost all of the client-side code in the Phoenix project is in `Kotlin`_ and `Swift`_.
 
-**************
-Key Components
-**************
+***************
+Major Components
+***************
 
 ================================
 Learning Management System (LMS)
@@ -147,9 +154,8 @@ In addition to the components detailed above, the Open edX project also has
 services for other capabilities, such as one that manages e-commerce functions
 like order work flows and coupons.
 
-.. _edx-platform: https://github.com/edx/edx-platform
-.. _Python: https://www.python.org/
-.. _Django: https://www.djangoproject.com/
+.. _Kotlin: https://kotlinlang.org/
+.. _Swift: https://developer.apple.com/swift/
 .. _MongoDB: http://www.mongodb.org/
 .. _Mako: http://www.makotemplates.org/
 .. _CoffeeScript: http://coffeescript.org/

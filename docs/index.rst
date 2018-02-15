@@ -15,9 +15,13 @@ Contents:
    installation
    usage
    architecture
+   ui
+   bl
+   network
+   database
+   analytics
    readme
    authors
-   contributing
 
 
 
