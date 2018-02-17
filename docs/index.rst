@@ -15,11 +15,8 @@ Contents:
    installation
    usage
    architecture
-   ui
-   bl
-   network
-   database
-   analytics
+   android
+   ios
    readme
    authors
 
