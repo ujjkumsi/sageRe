@@ -50,7 +50,12 @@ multiple observer.
 .. code-block:: kotlin
 	:linenos:
 	
-	chek = 1
+	lateinit var navigator: Contract.Navigator
+	
+	override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
+		setViewModel(V::class.java, viewModelFactory)
+		return setAndBindContentView(inflater, container, savedInstanceState, R.layout.fragment_sample)
+	}
 
 In above snippet, our fragment holds reference to navigator as well as 
 vm (property with BaseFragment class).
